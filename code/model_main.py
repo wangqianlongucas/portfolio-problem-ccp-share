@@ -100,10 +100,10 @@ def add_constraints(mo, X, Z, P):
 
 
 if __name__ == '__main__':
-    PATH_DATA = '..\\data\\'
+    PATH_DATA = '../data/'
     # use_st_l = ['600519.SH', '600391.SH', '600232.SH', '600396.SH', '600185.SH']
-    use_st_l = ['600519.SH', '600391.SH', '600232.SH', '600396.SH']
-    # use_st_l = ['600519.SH', '600391.SH', '600232.SH']
+    # use_st_l = ['600519.SH', '600391.SH', '600232.SH', '600396.SH']
+    use_st_l = ['600519.SH', '600391.SH', '600232.SH']
     PARAMETERS, st_percent_t = construct_parameters(PATH_DATA, use_st_l)
     # 建立模型
     model = Model('model')
