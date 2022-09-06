@@ -50,7 +50,7 @@ def get_data_by_tushare(ts_pro, st_list, start_date, end_date, path_data):
 if __name__ == '__main__':
     # 初始化
     MY_TOKEN = '****'
-    PATH_DATA = '..//data//'
+    PATH_DATA = '../data/'
     TS_PRO = ts.pro_api(MY_TOKEN)
     # 读取股票列表
     with open(PATH_DATA + 'ST_LIST.txt', 'r') as f:
